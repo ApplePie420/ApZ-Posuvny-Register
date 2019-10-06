@@ -12,8 +12,8 @@ void setup() {
 
 byte cislo = 1;                             //Vyvtoríme premennú "cislo", s hodnotou 1
 void loop() {
-  if(arr == 0) {                            //Ak nám premenná pretečie (dostane sa na 256, nemožnú hodnotu, jej binárna hodnota bude 100000000, deviaty bit odpadne takže zostane 00000000), zresetuj jej hodnotu späť na 1
-    arr = 1;
+  if(cislo == 0) {                            //Ak nám premenná pretečie (dostane sa na 256, nemožnú hodnotu, jej binárna hodnota bude 100000000, deviaty bit odpadne takže zostane 00000000), zresetuj jej hodnotu späť na 1
+    cislo = 1;
   }
   digitalWrite(LATCH, LOW);                 //Vypneme LATCH, nechceme nič vidieť kým shiftujeme dáta
   shiftOut(DATA, CLOCK, MSBFIRST, cislo);   //Vyshiftujeme hodnotu premennej "cislo"

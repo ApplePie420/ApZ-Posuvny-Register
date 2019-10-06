@@ -15,5 +15,7 @@ Priložil som aj .pdf súbor s datasheetom 74HC595, konkrétne od firmy TI keď�
 Odkazy na zaujímavé články a referencie, ktoré sa hodia a doporučujem prečítať.
 
 [shiftOut() funkcia](https://www.arduino.cc/reference/en/language/functions/advanced-io/shiftout/)
+
 [Arduino a 74HC595](https://www.arduino.cc/en/tutorial/ShiftOut)
+
 [Úžasný článok o PR](https://www.electronics-tutorials.ws/sequential/seq_5.html)
